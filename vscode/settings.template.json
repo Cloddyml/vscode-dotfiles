@@ -1,0 +1,208 @@
+{
+  // General
+  "update.mode": "manual",
+  "update.enableWindowsBackgroundUpdates": false,
+  "workbench.startupEditor": "none",
+  "window.zoomLevel": 1,
+  "window.menuBarVisibility": "toggle",
+  "window.menuStyle": "native",
+  "window.openFoldersInNewWindow": "default",
+
+  // Telemetry
+  "telemetry.telemetryLevel": "off",
+
+  // Interface
+  "workbench.colorTheme": "Ayu Dark Bordered",
+  "workbench.iconTheme": "flow-deep",
+  "flow-icons.licenseKey": "YOUR_LICENSE_KEY",
+  "editor.fontFamily": "'JetBrainsMono Nerd Font'",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.enablePreview": false,
+  "workbench.browser.searchEngine": "duckduckgo",
+  "workbench.activityBar.location": "top",
+  "explorer.compactFolders": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+
+  "workbench.statusBar.visible": true,
+  "workbench.panel.showLabels": false,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+
+  // Git
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": true,
+  "git.enableSmartCommit": true,
+
+  // Editor
+  "editor.fontLigatures": true,
+  "editor.fontSize": 17,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.minimap.enabled": false,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.scrollbar.vertical": "auto",
+  "editor.scrollbar.verticalScrollbarSize": 6,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.glyphMargin": false,
+  "editor.guides.bracketPairs": false,
+  "window.density.editorTabHeight": "compact",
+  "editor.stickyScroll.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.smoothScrolling": true,
+  "editor.wordWrap":"bounded",
+  "editor.wrappingIndent": "same",
+  "editor.wordWrapColumn": 120,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "editor.unicodeHighlight.allowedCharacters": {
+    "а": true,
+    "с": true,
+    "е": true,
+    "о": true,
+    "р": true,
+    "х": true
+  },
+
+// Breadcrumbs
+  "breadcrumbs.icons": false,
+  "breadcrumbs.showKeys": false,
+  "breadcrumbs.showFiles": false,
+  "breadcrumbs.symbolPath": "off",
+  "breadcrumbs.showArrays": false,
+  "breadcrumbs.showEvents": false,
+  "breadcrumbs.showFields": false,
+  "breadcrumbs.showClasses": false,
+  "breadcrumbs.showMethods": false,
+  "breadcrumbs.showBooleans": false,
+  "breadcrumbs.showFunctions": false,
+  "breadcrumbs.showConstants": false,
+  "breadcrumbs.showEnumMembers": false,
+  "breadcrumbs.showConstructors": false,
+
+  // "files.exclude": {
+  //   "**/.git": true,
+  //   "**/.svn": true,
+  //   "**/.hg": true,
+  //   "**/.DS_Store": true,
+  //   "**/Thumbs.db": true
+  // },
+
+  // Terminal
+  "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontLigatures.enabled": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.automationProfile.windows": {
+    "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+  },
+
+  // AI
+  "git.addAICoAuthor": "off",
+  "chat.viewSessions.orientation": "stacked", // interface
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "editor.inlineSuggest.edits.showCollapsed": true,
+
+  // ========== LANGUAGES ==========
+
+  // Python + Ruff
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+
+  // PHP
+  "[php]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+
+  // JavaScript
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+
+  // TypeScript
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+
+  // JSX (React)
+  "[javascriptreact]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+
+  // TSX (React)
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+
+  // Vue
+  "[vue]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+
+  // JSON
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+
+  // JSONC
+  "[jsonc]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+
+  // CSS
+  "[css]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+
+  // SCSS
+  "[scss]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+
+  // LESS
+  "[less]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+
+  // ========== EXTENSIONS ==========
+
+  // Continue (AI)
+  "continue": {
+    "enableTabAutocomplete": false,
+    "enableNextEdit": false
+  },
+
+  // Error Lens
+  "errorLens.delay": 1000,
+  "errorLens.margin": "5ch"
+}

@@ -1,0 +1,15 @@
+﻿bmewburn.vscode-intelephense-client
+bradlc.vscode-tailwindcss
+charliermarsh.ruff
+continue.continue
+emallin.phpunit
+kokororin.vscode-phpfmt
+ms-python.debugpy
+ms-python.python
+neilbrayfield.php-docblocker
+phproberto.vscode-php-getters-setters
+teabyii.ayu
+thang-nm.flow-icons
+usernamehw.errorlens
+vue.volar
+xdebug.php-debug
