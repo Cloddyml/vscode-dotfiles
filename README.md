@@ -52,6 +52,20 @@ Now you can use this configuration!
 *Coming soon*
 
 ---
+## Git Hooks
+
+This repository includes a `pre-commit` hook that automatically exports your installed VS Code extensions to [extensions.txt](vscode/extensions.txt) before every commit.
+
+Hooks are not cloned automatically, so after cloning the repository you need to enable it **once**:
+
+```bash
+git config core.hooksPath .githooks
+chmod +x .githooks/pre-commit
+```
+
+That's it — from now on, every commit will keep [extensions.txt](vscode/extensions.txt) up to date automatically.
+
+---
 ## Extensions
 
 You can see all extensions in this file: [extensions.txt](vscode/extensions.txt). One extension `thang-nm.flow-icons` requires a license key. This setting will be in your future [settings.json](vscode/settings.json) file.

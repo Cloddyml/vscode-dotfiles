@@ -1,0 +1,22 @@
+#!/bin/sh
+
+REPO_ROOT=$(git rev-parse --show-toplevel)
+EXT_FILE="$REPO_ROOT/vscode/extensions.txt"
+
+# Check if the 'code' command is available in the PATH
+if ! command -v code > /dev/null 2>&1; then
+    echo "⚠️  'code' CLI is not found in PATH, skipping extension export"
+    exit 0
+fi
+
+mkdir -p "$(dirname "$EXT_FILE")"
+
+# Get the list of extensions, sort them, and write to the file
+code --list-extensions | sort > "$EXT_FILE"
+
+COUNT=$(wc -l < "$EXT_FILE" | tr -d ' ')
+echo "✅ Exported extensions: $COUNT"
+
+git add "$EXT_FILE"
+
+exit 0
