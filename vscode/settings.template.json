@@ -116,6 +116,7 @@
     },
     "editor.defaultFormatter": "charliermarsh.ruff"
   },
+  "python.analysis.typeCheckingMode": "standard",
 
   // PHP
   "[php]": {

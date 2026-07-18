@@ -6,6 +6,7 @@ emallin.phpunit
 kokororin.vscode-phpfmt
 ms-python.debugpy
 ms-python.python
+ms-python.vscode-pylance
 neilbrayfield.php-docblocker
 phproberto.vscode-php-getters-setters
 teabyii.ayu
