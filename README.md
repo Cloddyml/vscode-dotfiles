@@ -73,8 +73,9 @@ You can see all extensions in this file: [extensions.txt](vscode/extensions.txt)
 ---
 ## Custom shortcuts:
 
-| Shortcut |      Command      |
-|----------|:-----------------:|
-| Alt+F11  |   Opens zen mode  |
+|   Shortcut   |      Command      |
+|--------------|:-----------------:|
+|   Alt+F11    |   Opens zen mode  |
+|  ctrl+alt+t  |   Toggle terminal |
 
 ---

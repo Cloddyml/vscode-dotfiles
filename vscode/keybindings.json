@@ -3,5 +3,9 @@
   {
     "key": "alt+f11",
     "command": "workbench.action.toggleZenMode"
+  },
+  {
+    "key": "ctrl+alt+t",
+    "command": "workbench.action.terminal.toggleTerminal"
   }
 ]

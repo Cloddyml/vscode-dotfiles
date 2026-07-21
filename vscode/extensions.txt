@@ -9,6 +9,7 @@ ms-python.python
 ms-python.vscode-pylance
 neilbrayfield.php-docblocker
 phproberto.vscode-php-getters-setters
+tamasfe.even-better-toml
 teabyii.ayu
 thang-nm.flow-icons
 usernamehw.errorlens
