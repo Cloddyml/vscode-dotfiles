@@ -1,12 +1,13 @@
 bmewburn.vscode-intelephense-client
 bradlc.vscode-tailwindcss
 charliermarsh.ruff
-continue.continue
 emallin.phpunit
+golang.go
 kokororin.vscode-phpfmt
 ms-python.debugpy
 ms-python.python
 ms-python.vscode-pylance
+ms-python.vscode-python-envs
 neilbrayfield.php-docblocker
 phproberto.vscode-php-getters-setters
 tamasfe.even-better-toml
