@@ -44,7 +44,7 @@
   "editor.scrollbar.vertical": "auto",
   "editor.scrollbar.verticalScrollbarSize": 6,
   "editor.scrollbar.horizontal": "hidden",
-  "editor.glyphMargin": false,
+  "editor.glyphMargin": true,
   "editor.guides.bracketPairs": false,
   "window.density.editorTabHeight": "compact",
   "editor.stickyScroll.enabled": true,
